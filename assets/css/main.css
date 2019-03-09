@@ -2099,6 +2099,11 @@ input, select, textarea {
 		}
 
 /* Logo */
+    
+    #logoimg {
+        width: 50%;
+        height: 50%;
+    }
 
 	#logo {
 		width: 100%;
@@ -2527,8 +2532,17 @@ input, select, textarea {
 
 		/* Logo */
 
+            #logoimg {
+                width: 55%;
+                height: 55%;
+            }
+        
 			#logo {
 				margin-top: -0.5em !important;
+                width: 100%;
+		        text-align: center;
+                position: relative;
+		        top: 1.5em;
 			}
 
 				#logo h1 {
@@ -2613,8 +2627,17 @@ input, select, textarea {
 
 		/* Logo */
 
+            #logoimg {
+                width: 60%;
+                height: 60%;
+            }
+        
 			#logo {
 				top: 0;
+                width: 100%;
+		        text-align: center;
+                position: relative;
+		        top: 1.5em;
 			}
 
 		/* Intro */
@@ -2961,6 +2984,11 @@ input, select, textarea {
 
 		/* Logo */
 
+            #logoimg {
+                width: 85%;
+                height: 85%;
+            }
+        
 			#logo {
 				text-align: center;
 				padding-left: 2em;
@@ -2999,7 +3027,11 @@ input, select, textarea {
 					line-height: 1.25em;
 					padding: 1.25em;
 				}
-
+            
+            #downlogo {
+                text-align: right;
+            }
+            
 		/* Features */
 
 			#features header.style1 {
